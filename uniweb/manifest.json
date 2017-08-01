@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "uniweb",
+"description": "unipd",
+"version": "1.0",
+"icons": {
+"480": "icon.png"
+},
+"app": {
+"urls": [
+"https://uniweb.unipd.it/Home.do"
+
+],
+"launch": {
+"web_url": "https://uniweb.unipd.it/Home.do"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}

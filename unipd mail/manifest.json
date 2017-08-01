@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "unipd mail",
+"description": "gmail",
+"version": "1.0",
+"icons": {
+"480": "icon.png"
+},
+"app": {
+"urls": [
+"https://mail.google.com/mail/u/1/#inbox"
+
+],
+"launch": {
+"web_url": "https://mail.google.com/mail/u/1/#inbox"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}

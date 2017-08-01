@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "Nodered",
+"description": "httplocalhost:1880",
+"version": "1.0",
+"icons": {
+"480": "480.png"
+},
+"app": {
+"urls": [
+"http://localhost:1880/"
+
+],
+"launch": {
+"web_url": "http://localhost:1880/"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}

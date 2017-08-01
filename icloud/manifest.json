@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "icloud",
+"description": "icloud",
+"version": "1.0",
+"icons": {
+"480": "icon.png"
+},
+"app": {
+"urls": [
+"https://www.icloud.com/"
+
+],
+"launch": {
+"web_url": "https://www.icloud.com/"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}

@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "moodle",
+"description": "moodle",
+"version": "1.0",
+"icons": {
+"480": "icon.png"
+},
+"app": {
+"urls": [
+"https://elearning.unipd.it/dii/my/"
+
+],
+"launch": {
+"web_url": "https://elearning.unipd.it/dii/my/"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}

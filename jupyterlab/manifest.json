@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "jupyter lab",
+"description": "ide",
+"version": "1.0",
+"icons": {
+"480": "480.png"
+},
+"app": {
+"urls": [
+"http://localhost:8888/lab"
+
+],
+"launch": {
+"web_url": "http://localhost:8888/lab"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}
